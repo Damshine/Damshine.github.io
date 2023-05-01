@@ -266,7 +266,7 @@
 
 <h3 id="3-2-查询分类列表"><a href="#3-2-查询分类列表" class="headerlink" title="3.2 查询分类列表"></a>3.2 查询分类列表</h3><h4 id="3-2-0-分类表分析"><a href="#3-2-0-分类表分析" class="headerlink" title="3.2.0 分类表分析"></a>3.2.0 分类表分析</h4><p>​		通过需求去分析需要有哪些字段。</p>
 <p>​		建表SQL及初始化数据见：SGBlog\资源\SQL\sg_category.sql</p>
-<h4 id="3-2-1-需求"><a href="#3-2-1-需求" class="headerlink" title="3.2.1 需求"></a>3.2.1 需求</h4><p><img src="/img/loading.gif" data-original="/post/0/image-20220202111056036-16437714601701.png" alt="image-20220202111056036"></p>
+<h4 id="3-2-1-需求"><a href="#3-2-1-需求" class="headerlink" title="3.2.1 需求"></a>3.2.1 需求</h4><p><img src="/img/loading.gif" data-original="/img/image-20220202111056036-16437714601701.png" alt="image-20220202111056036"></p>
 <p>​	页面上需要展示分类列表，用户可以点击具体的分类查看该分类下的文章列表。</p>
 <p>​	注意： ①要求只展示有发布正式文章的分类 ②必须是正常状态的分类</p>
 <h4 id="3-2-2-接口设计"><a href="#3-2-2-接口设计" class="headerlink" title="3.2.2 接口设计"></a>3.2.2 接口设计</h4><p>​	见接口文档</p>
@@ -553,7 +553,7 @@
 
 <h3 id="3-10-查询评论列表接口"><a href="#3-10-查询评论列表接口" class="headerlink" title="3.10 查询评论列表接口"></a>3.10 查询评论列表接口</h3><h4 id="3-10-1-需求"><a href="#3-10-1-需求" class="headerlink" title="3.10.1 需求"></a>3.10.1 需求</h4><p>​	文章详情页面要展示这篇文章下的评论列表。</p>
 <p>​	效果如下:</p>
-<p><img src="/img/loading.gif" data-original="/post/0/image-20220208214106296.png" alt="image-20220208214106296"></p>
+<p><img src="/img/loading.gif" data-original="/img/image-20220208214106296.png" alt="image-20220208214106296"></p>
 <h4 id="3-10-2-评论表分析"><a href="#3-10-2-评论表分析" class="headerlink" title="3.10.2 评论表分析"></a>3.10.2 评论表分析</h4><p>​	通过需求去分析需要有哪些字段。</p>
 <p>​	建表SQL及初始化数据见：SGBlog\资源\SQL\sg_comment.sql	</p>
 <p>​	<strong>顺便生成下对应的代码</strong></p>
@@ -759,11 +759,11 @@
 <h3 id="3-14-头像上传接口"><a href="#3-14-头像上传接口" class="headerlink" title="3.14 头像上传接口"></a>3.14 头像上传接口</h3><h4 id="3-14-1-需求"><a href="#3-14-1-需求" class="headerlink" title="3.14.1 需求"></a>3.14.1 需求</h4><p>​	在个人中心点击编辑的时候可以上传头像图片。上传完头像后，可以用于更新个人信息接口。</p>
 <h4 id="3-14-2-OSS"><a href="#3-14-2-OSS" class="headerlink" title="3.14.2 OSS"></a>3.14.2 OSS</h4><h5 id="3-14-2-1-为什么要使用OSS"><a href="#3-14-2-1-为什么要使用OSS" class="headerlink" title="3.14.2.1 为什么要使用OSS"></a>3.14.2.1 为什么要使用OSS</h5><p>​	因为如果把图片视频等文件上传到自己的应用的Web服务器，在读取图片的时候会占用比较多的资源。影响应用服务器的性能。</p>
 <p>​	所以我们一般使用OSS(Object Storage Service对象存储服务)存储图片或视频。</p>
-<h5 id="3-14-2-2-七牛云基本使用测试"><a href="#3-14-2-2-七牛云基本使用测试" class="headerlink" title="3.14.2.2 七牛云基本使用测试"></a>3.14.2.2 七牛云基本使用测试</h5><p><img src="/img/loading.gif" data-original="/post/0/image-20220227224537701.png" alt="image-20220227224537701"></p>
-<p><img src="/img/loading.gif" data-original="/post/0/image-20220227224443813.png" alt="image-20220227224443813"></p>
+<h5 id="3-14-2-2-七牛云基本使用测试"><a href="#3-14-2-2-七牛云基本使用测试" class="headerlink" title="3.14.2.2 七牛云基本使用测试"></a>3.14.2.2 七牛云基本使用测试</h5><p><img src="/img/loading.gif" data-original="/img/image-20220227224537701.png" alt="image-20220227224537701"></p>
+<p><img src="/img/loading.gif" data-original="/img/image-20220227224443813.png" alt="image-20220227224443813"></p>
 <p>秘钥</p>
-<p><img src="/img/loading.gif" data-original="/post/0/image-20220228230512598.png" alt="image-20220228230512598"></p>
-<p><img src="/img/loading.gif" data-original="/post/0/image-20220228230933808.png" alt="image-20220228230933808"></p>
+<p><img src="/img/loading.gif" data-original="/img/image-20220228230512598.png" alt="image-20220228230512598"></p>
+<p><img src="/img/loading.gif" data-original="/img/image-20220228230933808.png" alt="image-20220228230933808"></p>
 <h5 id="3-14-2-3-七牛云测试代码编写"><a href="#3-14-2-3-七牛云测试代码编写" class="headerlink" title="3.14.2.3 七牛云测试代码编写"></a>3.14.2.3 七牛云测试代码编写</h5><p>①添加依赖</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dependency</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">groupId</span>&gt;</span>com.qiniu<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>qiniu-java-sdk<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">version</span>&gt;</span>[7.7.0, 7.7.99]<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dependency</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
@@ -901,7 +901,7 @@
 
 <h3 id="3-17-AOP实现日志记录"><a href="#3-17-AOP实现日志记录" class="headerlink" title="3.17 AOP实现日志记录"></a>3.17 AOP实现日志记录</h3><h4 id="3-17-1-需求"><a href="#3-17-1-需求" class="headerlink" title="3.17.1 需求"></a>3.17.1 需求</h4><p>​	需要通过日志记录接口调用信息。便于后期调试排查。并且可能有很多接口都需要进行日志的记录。</p>
 <p>​	接口被调用时日志打印格式如下：</p>
-<p><img src="/img/loading.gif" data-original="/post/0/image-20220313133714102.png" alt="image-20220313133714102"></p>
+<p><img src="/img/loading.gif" data-original="/img/image-20220313133714102.png" alt="image-20220313133714102"></p>
 <h4 id="3-17-2-思路分析"><a href="#3-17-2-思路分析" class="headerlink" title="3.17.2 思路分析"></a>3.17.2 思路分析</h4><p>​	相当于是对原有的功能进行增强。并且是批量的增强，这个时候就非常适合用AOP来进行实现。</p>
 <p>​	</p>
 <h4 id="3-17-3-代码实现"><a href="#3-17-3-代码实现" class="headerlink" title="3.17.3 代码实现"></a>3.17.3 代码实现</h4><p>日志打印格式</p>
