@@ -8,7 +8,7 @@
       <link href="/post/d87f7e0c.html"/>
       <url>/post/d87f7e0c.html</url>
       
-        <content type="html"><![CDATA[<p><strong>测试图片显示</strong></p><p><img src="/post/d87f7e0c/1.jpg" alt="测试图片"></p><p><img src="https://pic.cnblogs.com/avatar/2248891/20220924221134.png" alt="长情c的头像"></p>]]></content>
+        <content type="html"><![CDATA[<p><strong>测试本地图片显示</strong></p><p><img src="/post/d87f7e0c/1.jpg" alt="测试图片"></p><p><strong>测试网络图片显示</strong></p><p><img src="https://pic.cnblogs.com/avatar/2248891/20220924221134.png" alt="长情c的头像"></p>]]></content>
       
       
       
